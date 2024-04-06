@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'elevate';
+  src:
+    url('elevate.ttf') format('truetype'),
+    url('elevate.ttf') format('woff'),
+    url('elevate.ttf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'elevate' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-warning:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+.icon-close-circle:before {
+  content: "\e900";
+}
+.icon-search-outline:before {
+  content: "\e901";
+}
+.icon-down-triangle:before {
+  content: "\e904";
+}
+.icon-left-arrow:before {
+  content: "\e905";
+}
+.icon-right-arrow:before {
+  content: "\e935";
+}
