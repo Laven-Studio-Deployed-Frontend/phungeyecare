@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'elevate';
   src:
-    url('elevate.ttf') format('truetype'),
-    url('elevate.ttf') format('woff'),
-    url('elevate.ttf') format('svg');
+    url('/elevate.ttf') format('truetype');
+   
+
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -49,7 +49,7 @@
   content: "\eaca";
 }
 .icon-close-circle:before {
-  content: "\e900";
+  /* content: "\e900"; */
 }
 .icon-search-outline:before {
   content: "\e901";
